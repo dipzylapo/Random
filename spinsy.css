@@ -108,3 +108,14 @@ body{
 	outline:none;
 	letter-spacing: 1px;
 }
+/* Add these styles to your existing CSS file */
+.container {
+  /* Update the existing transition property */
+  transition: all 5s ease-out;
+}
+
+/* Optional: Add hover effect to close button */
+#spin:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
